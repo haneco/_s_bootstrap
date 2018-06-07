@@ -1,0 +1,35 @@
+/*!
+Theme Name: _s_bootstrap
+Theme URI: https://blueclip.jp/_s_bootstrap/
+Author: Akihito Haneda
+Author URI: https://blueclip.jp/
+Description: Custom theme: _s_bootstrap, developed by Me
+Version: 1.0.0
+License: GNU General Public License v2 or later
+Text Domain: _s_bootstrap
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+_s_bootstrap is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+/*--------------------------------------------------------------
+# Variables
+--------------------------------------------------------------*/
+@import "variables";
+
+/*--------------------------------------------------------------
+# Import Bootstrap
+--------------------------------------------------------------*/
+@import "~bootstrap/scss/bootstrap";
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+img {
+    max-width: 100%;
+    height: auto;
+}
