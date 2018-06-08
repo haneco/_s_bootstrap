@@ -147,7 +147,7 @@ function _s_bootstrap_scripts()
 
     if (!is_admin()) {
         wp_deregister_script('jquery');
-        wp_enqueue_script('_s_bootstrap-script', get_template_directory_uri() . '/inc/asseets/js/main.js', array(), '20180605', true);
+        wp_enqueue_script('_s_bootstrap-script', get_template_directory_uri() . '/inc/assets/js/main.js', array(), '20180605', true);
     }
 
     wp_enqueue_script('_s_bootstrap-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true);
