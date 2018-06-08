@@ -13,6 +13,13 @@ module.exports = (minimize) => {
     module: {
       rules: [
         {
+          test: require.resolve('jquery'),
+          use: [{
+            loader: 'expose-loader',
+            options: 'jQuery'
+          }]
+        },
+        {
           test: /\.scss/,
           use: ExtractTextPlugin.extract({
             use: [
